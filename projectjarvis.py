@@ -140,8 +140,7 @@ def run_jarvis():
             open_app("facetime")
 
         # Stop / exit
-        elif 'stop' in command or 'bye' in command:
-            talk("Goodbye sir. Shutting down now.")
+        elif 'stop' in command or 'bye' in command:d
             exit()
 
         else:
